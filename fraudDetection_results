@@ -1,0 +1,43 @@
+=== FINAL RESULTS TABLE ===
+    user_id  income  scheme_amount  num_claims  ml_flag   rule_flag  \
+0       101   18000          14000           7   Normal  Suspicious   
+1       102   72000          10000           1  Anomaly      Normal   
+2       103   25000          20000           9   Normal  Suspicious   
+3       104   40000          12000           2   Normal      Normal   
+4       105   15000          16000           8   Normal  Suspicious   
+5       106   90000          15000           1  Anomaly      Normal   
+6       107   30000          18000           6   Normal      Normal   
+7       108   27000          17000           7   Normal  Suspicious   
+8       109   21000          15000           6   Normal  Suspicious   
+9       110   65000          20000           2   Normal      Normal   
+10      111   23000          19000          10   Normal  Suspicious   
+11      112   80000          12000           1  Anomaly      Normal   
+12      113   19000          14000           7   Normal  Suspicious   
+13      114   35000          13000           3   Normal      Normal   
+14      115   22000          21000           9  Anomaly  Suspicious   
+15      116   50000          15000           2   Normal      Normal   
+16      117   26000          20000           8   Normal  Suspicious   
+17      118   70000          18000           1  Anomaly      Normal   
+18      119   24000          16000           7   Normal  Suspicious   
+19      120   60000          22000           2  Anomaly      Normal   
+
+   final_flag                                       fraud_reason  
+0       Fraud  High claims, Income mismatch, Duplicate accoun...  
+1       Fraud                                                     
+2       Fraud  High claims, Income mismatch, Duplicate accoun...  
+3       Legit                                                     
+4       Fraud  High claims, Income mismatch, Duplicate accoun...  
+5       Fraud                                                     
+6       Legit                                        High claims  
+7       Fraud  High claims, Income mismatch, Duplicate accoun...  
+8       Fraud                       High claims, Income mismatch  
+9       Legit                                                     
+10      Fraud  High claims, Income mismatch, Duplicate accoun...  
+11      Fraud                                                     
+12      Fraud  High claims, Income mismatch, Duplicate accoun...  
+13      Legit                                                     
+14      Fraud  High claims, Income mismatch, Duplicate accoun...  
+15      Legit                                                     
+16      Fraud  High claims, Income mismatch, Duplicate accoun...  
+17      Fraud                                                     
+18      Fraud  High claims, Income mismatch, Duplicate accoun...  
